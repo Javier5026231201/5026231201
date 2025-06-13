@@ -103,14 +103,14 @@
     <div class="sidebar">
         <br><br><br><br>
         <div class="text-center mb-3">
-            <img src="Frame 40792-3.png" class="rounded-circle" alt="Admin" width="60px" height="60px">
+            <img src="image/Frame 40792-3.png" class="rounded-circle" alt="Admin" width="60px" height="60px">
             <h5 class="mt-2">Admin</h5>
             <p>admin@mail.com</p>
         </div>
         <a href="#">Helperlog</a>
         <a href="#">Helperfind</a>
         <a href="#" class="text-danger">Log Out</a>
-    </div>  
+    </div>
 
     <!-- Main Content -->
     <div class="main-content">

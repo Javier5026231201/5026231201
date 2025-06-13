@@ -111,13 +111,13 @@
 <body>
     <div class="container">
         <div class="logo">
-            <img src="linktree2.png" alt="Logo">
+            <img src="/image/linktree2.png" alt="Logo">
         </div>
         <h1>KEMAH ROHANI XXVI</h1>
         <p class="subtitle">Don't miss out!!!</p>
 
         <div class="event-image">
-            <img src="linktree1" alt="Foto Peserta">
+            <img src="/image/linktree1.webp" alt="Foto Peserta">
         </div>
 
         <div class="countdown">

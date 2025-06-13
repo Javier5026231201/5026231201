@@ -27,7 +27,7 @@
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <!-- fonts -->
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
-      <!-- owl stylesheets --> 
+      <!-- owl stylesheets -->
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -42,11 +42,11 @@
                      <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home</a>
                      </li>
-                     
+
                      <li class="nav-item">
                         <a class="nav-link" href="services.html">Services</a>
                      </li>
-                     
+
                      <li class="nav-item">
                         <a class="nav-link" href="Contact.html">Contact Us</a>
                      </li>
@@ -115,7 +115,7 @@
                      </div>
                   </div>
                </div>
-            
+
          </div>
          </div>
       </div>
@@ -128,34 +128,34 @@
                <div class="owl-carousel owl-theme">
                   <div class="item">
                      <div class="image_box">
-                        <img src="images/1.png" alt="#" />
+                        <img src="image/1.png" alt="#" />
                      </div>
                      <h3 class="sound_text">Mudahnya <br>Akses</h3>
                      <p style="color: aliceblue;">Temukan beragam masakan favorit, dari cita rasa Indonesia, menu healthy, hingga hidangan Western, atau request merchant pilihan Anda untuk bergabung di platform kami.</p>
                   </div>
                   <div class="item">
                      <div class="image_box">
-                        <img src="images/2.png" alt="#" />
+                        <img src="image/2.png" alt="#" />
                      </div>
                      <h3 class="sound_text">Pengirimannya <br>Diandalkan</h3>
                      <p style="color: aliceblue;">Kulina memiliki sistem logistik yang terintegrasi dan teroptimasi untuk memastikan pengiriman makanan tepat waktu dan akurat, baik untuk pesanan jumlah kecil maupun besar.</p>
-                  
+
                      </div>
                   <div class="item">
                      <div class="image_box">
-                        <img src="images/3.png" alt="#" />
+                        <img src="image/3.png" alt="#" />
                      </div>
                      <h3 class="sound_text">Flexibelitas <br>Pemesanan</h3>
                      <p style="color: aliceblue;">Pilih cara pemesanan yang paling sesuai dengan perusahaan Anda: karyawan pesan sendiri sesuai budget yang ditentukan atau serahkan pada account manager kami.</p>
-                  
+
                   </div>
                   <div class="item">
                      <div class="image_box">
-                        <img src="images/4.png" alt="#" />
+                        <img src="image/4.png" alt="#" />
                      </div>
                      <h3 class="sound_text">Otomatisasi <br>Laporan & Pembayaran</h3>
                      <p style="color: aliceblue;">Kulina menyediakan dashboard yang untuk memantau pengeluaran dan mengelola budget makan karyawan. Sistem invoice otomatis juga akan memudahkan proses administrasi Anda.</p>
-                  
+
                   </div>
                </div>
             </div>
@@ -197,10 +197,10 @@
                            <p class="month_text">/one month</p>
                         </div>
                         <p class="dummy_text">Passages of
-                           Lorem Ipsum 
+                           Lorem Ipsum
                            available, but
-                           the majority 
-                           have suffered 
+                           the majority
+                           have suffered
                            alteration
                         </p>
                         <div class="readmore_bt"><a href="#">Join Now</a></div>
@@ -214,10 +214,10 @@
                            <p class="month_text">/one month</p>
                         </div>
                         <p class="dummy_text">Passages of
-                           Lorem Ipsum 
+                           Lorem Ipsum
                            available, but
-                           the majority 
-                           have suffered 
+                           the majority
+                           have suffered
                            alteration
                         </p>
                         <div class="readmore_bt"><a href="#">Join Now</a></div>
@@ -415,7 +415,7 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <!-- javascript --> 
+      <!-- javascript -->
       <script src="js/owl.carousel.js"></script>
       <script>
          $('.owl-carousel').owlCarousel({
@@ -440,7 +440,7 @@
                     items:3
                 }
             }
-         })   
-      </script>   
+         })
+      </script>
    </body>
 </html>
