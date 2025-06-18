@@ -21,7 +21,7 @@
 
 <body>
     <div class="jumbotron text-center mx-auto">
-        <h1>5026231209 : Adityo Rafi Wardhana</h1>
+        <h1>5026231201 : Javier Pandapotan Valerian</h1>
     </div>
 
     <nav class="navbar navbar-expand-sm bg-light">
@@ -33,7 +33,7 @@
                 <a class="nav-link" href="/pegawai">Pegawai</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/kulkas">Tugas CRUD</a>
+                <a class="nav-link" href="/ac">Tugas CRUD</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/index">EAS</a>

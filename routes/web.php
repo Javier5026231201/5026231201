@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Link ;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController ;
+use App\Http\Controllers\AcController;
 
 
 //import java.io
@@ -93,4 +94,13 @@ Route::get('/pegawai/edit/{id}',[PegawaiController::class, 'edit']);
 Route::post('/pegawai/update',[PegawaiController::class, 'update']);
 Route::get('/pegawai/hapus/{id}',[PegawaiController::class, 'hapus']);
 Route::get('/pegawai/cari',[PegawaiController::class, 'cari']);
+
+//route AC
+Route::get('/ac', [AcController::class,   'index']);
+Route::get('/ac/tambah',[AcController::class, 'tambah']);
+Route::post('/ac/store',[AcController::class, 'store']);
+Route::get('/ac/edit/{id}',[AcController::class, 'edit']);
+Route::post('/ac/update',[AcController::class, 'update']);
+Route::get('/ac/hapus/{id}',[AcController::class, 'hapus']);
+Route::get('/ac/cari',[AcController::class, 'cari']);
 ?>
