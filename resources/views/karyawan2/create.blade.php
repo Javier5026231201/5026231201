@@ -1,33 +1,47 @@
-@extends('layouts.app')
+@extends('template')
 
 @section('content')
-<div class="container mt-4">
-    <h2>Tambah Data Karyawan</h2>
+<div class="card">
+    <div class="card-header bg-warning">
+        <h4>Edit Data Karyawan</h4>
+    </div>
+    <div class="card-body">
+        <form action="{{ route('karyawan.update', $karyawan->kodepegawai) }}" method="POST">
 
-    <form action="{{ route('karyawan.store') }}" method="POST">
-        @csrf
-        <div class="mb-3">
-            <label for="kodepegawai" class="form-label">Kode Pegawai</label>
-            <input type="text" name="kodepegawai" id="kodepegawai" class="form-control" required maxlength="5">
-        </div>
+            @csrf
+            @method('PUT')
 
-        <div class="mb-3">
-            <label for="namalengkap" class="form-label">Nama Lengkap</label>
-            <input type="text" name="namalengkap" id="namalengkap" class="form-control" required maxlength="50">
-        </div>
+            <div class="form-group row">
+                <label for="kodepegawai" class="col-sm-2 col-form-label">Kode Pegawai</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="kodepegawai" name="kodepegawai" value="{{ $karyawan->kodepegawai }}" required>
+                </div>
+            </div>
 
-        <div class="mb-3">
-            <label for="divisi" class="form-label">Divisi</label>
-            <input type="text" name="divisi" id="divisi" class="form-control" required maxlength="5">
-        </div>
+            <div class="form-group row">
+                <label for="namalengkap" class="col-sm-2 col-form-label">Nama Lengkap</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="namalengkap" name="namalengkap" value="{{ $karyawan->namalengkap }}" required>
+                </div>
+            </div>
 
-        <div class="mb-3">
-            <label for="departemen" class="form-label">Departemen</label>
-            <input type="text" name="departemen" id="departemen" class="form-control" required maxlength="10">
-        </div>
+            <div class="form-group row">
+                <label for="divisi" class="col-sm-2 col-form-label">Divisi</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="divisi" name="divisi" value="{{ $karyawan->divisi }}" required>
+                </div>
+            </div>
 
-        <button type="submit" class="btn btn-success">Simpan</button>
-        <a href="{{ route('karyawan.index') }}" class="btn btn-secondary">Kembali</a>
-    </form>
+            <div class="form-group row">
+                <label for="departemen" class="col-sm-2 col-form-label">Departemen</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="departemen" name="departemen" value="{{ $karyawan->departemen }}" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
+            <a href="{{ route('karyawan.index') }}" class="btn btn-secondary">Kembali</a>
+        </form>
+    </div>
 </div>
 @endsection
